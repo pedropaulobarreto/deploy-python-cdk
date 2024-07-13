@@ -6,6 +6,6 @@ from deploy_python_cdk.deploy_python_cdk_stack import DeployPythonCdkStack
 
 
 app = cdk.App()
-DeployPythonCdkStack(app, "test-python-ec2")
+DeployPythonCdkStack(app, "test-python")
 
 app.synth()
